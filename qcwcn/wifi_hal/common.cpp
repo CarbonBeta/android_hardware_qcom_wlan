@@ -25,6 +25,8 @@
 #include "wifi_hal.h"
 #include "common.h"
 
+#include <cerrno>
+
 interface_info *getIfaceInfo(wifi_interface_handle handle)
 {
     return (interface_info *)handle;
